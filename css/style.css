@@ -3,9 +3,11 @@
     margin: 0;
 }
 .prof{
+    position: relative;
     background-color: aqua;
 }
 .profile-img{
+    position: relative;
     width: 200px;
     height: 200px;
 }
@@ -27,6 +29,7 @@ list-style-type: none;}
 color: red;
 }
 .edu .card{
+    position: relative;
 height: 150px;
 overflow: hidden;
 box-shadow: 10px 10px lightblue;
@@ -42,7 +45,28 @@ border-radius: 50px 50px;
 .date p{
 padding: 7px;
 }
+
+
 /* ***************************** Skill ******************* */
+.manag-skill ul{
+    list-style-type: none;
+    position: relative;
+}
+
+
+footer{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    height: 50px;
+ color: #fff;
+ letter-spacing: 1px; 
+ bottom: 0px; 
+ top: 0px;
+ }
+ footer .fp{
+    margin-top: 20px;
+ }
 
 /* ***************************** Responcive Start ********************************* */
 /* Extra small devices (phones, 600px and down) */
@@ -71,6 +95,23 @@ font-size: 10px;
 }
 .info ul{
     margin-top: 15px;
+}
+.date{
+    width: 120px;
+    height: 40px;
+    background-color: azure;
+border-radius: 50px 50px;
+}
+.date p{
+padding: 7px;
+}
+footer p{
+    font-size: 10px;
+}
+footer{
+    position: relative;
+    bottom: 0px; 
+top: 0px;
 }
 }
 
