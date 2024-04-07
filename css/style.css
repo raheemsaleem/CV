@@ -43,25 +43,6 @@ border-radius: 50px 50px;
 padding: 7px;
 }
 /* ***************************** Skill ******************* */
-.about{
-    margin-top: 100px;
-    height: 750px;
-    background-color: darkcyan;
-}
-#abo{
-    color: #ffff;
-}
-#abo p{
-    font-size: 22px;
-}
-.abimg{
-    width: 150px;
-    height: 150px;
-   
-}
-.abimg img{
-    width: 150px;
-    height: 150px;
 
 /* ***************************** Responcive Start ********************************* */
 /* Extra small devices (phones, 600px and down) */
