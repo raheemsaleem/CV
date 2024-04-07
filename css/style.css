@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.prof{
+    background-color: aqua;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+}
+.profile-name h3{
+display: flex;
+align-items: center;
+margin-top: 70px;
+color: blue;
+}
+.profile-name span{
+    color: red;
+}
+.info ul{
+    margin-top: 50px;
+}
+.info ul li{
+list-style-type: none;}
+.edu span{
+color: red;
+}
+.edu .card{
+height: 150px;
+overflow: hidden;
+box-shadow: 10px 10px lightblue;
+
+}
+/* **********************************Exparince*********************************** */
+.date{
+    width: 140px;
+    height: 40px;
+    background-color: azure;
+border-radius: 50px 50px;
+}
+.date p{
+padding: 7px;
+}
+
+/* ***************************** Responcive Start ********************************* */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .profile-img{
+        width: 70px;
+        height: 70px;
+    }
+.profile-img img{
+    margin-top: 30px;
+}
+    .pro{
+        height: 90px;
+     }
+     
+.profile-name h3{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    color: blue;
+font-size: 14px;
+margin-left: 20px;
+}
+.info ul li{
+font-size: 10px;
+}
+.info ul{
+    margin-top: 15px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .profile-img{
+        width: 155px;
+        height: 155px;
+     }
+     .pro{
+        height: 155px;
+     }
+     
+.profile-name h3{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    color: blue;
+    margin-left: 40px;
+margin-left: 50px;    
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.profile-img{
+    width: 180px;
+    height: 182px;
+ 
+}
+.profile-name h3{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    color: blue;
+margin-left: 50px;    
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.profile-img{
+    width: 200px;
+    height: 200px;
+}}
